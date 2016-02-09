@@ -225,11 +225,10 @@ html, body {
 
 @media only screen and (max-width : 768px) {
 
-    /*.aboutContainer {*/
-        /*margin: 0 auto;*/
-        /*padding-right: 0 !important;*/
+    .aboutContainer {
+        overflow: hidden;
 
-    /*}*/
+    }
     .aboutBackground {
         max-height: 600px;
     }
@@ -239,7 +238,7 @@ html, body {
     }
 
     .aboutText {
-        font-size: 6rem;
+        font-size: 4rem;
         text-align: center;
         margin-left: 0 auto;
     }
@@ -264,10 +263,6 @@ html, body {
         /*font-size: 3.5rem;*/
     /*}*/
 
-    .wrapper {
-        width: 80%;
-        margin: auto;
-    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -283,12 +278,6 @@ html, body {
         padding-top: 1rem;
         margin: 0 auto;
         font-size: 1.5rem;
-    }
-
-
-    .wrapper {
-        width: 80%;
-        margin: auto;
     }
 
 }
