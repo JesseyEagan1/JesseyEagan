@@ -235,6 +235,7 @@ html, body {
     }
     .aboutBackground {
         max-height: 600px;
+        margin: auto;
     }
     .pull-right-custom {
         float: none;
@@ -247,7 +248,8 @@ html, body {
     .aboutText {
         font-size: 4rem;
         text-align: center;
-        margin-left: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .aboutText2 {
