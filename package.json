@@ -1,0 +1,27 @@
+{
+  "name": "jesseyeagan",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseyEagan1/JesseyEagan.git"
+  },
+  "author": "Jessey Eagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesseyEagan1/JesseyEagan/issues"
+  },
+  "homepage": "https://github.com/JesseyEagan1/JesseyEagan#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  }
+}

@@ -1,0 +1,299 @@
+body {
+    background-color: #5C356C;
+}
+
+html, body {
+    height: 100%;
+}
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -150px;
+    overflow: auto;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+.site-footer, .page-wrap:after {
+    height: 150px;
+}
+
+/*===========================NAVBAR==============================*/
+/*.nav.navbar-nav.links {*/
+    /*width: 99%;*/
+/*}*/
+
+/*.navigation {*/
+    /*list-style-type: none;*/
+    /*display: inline;*/
+    /*text-align: center;*/
+
+/*}*/
+
+.navbar {
+    background-color: #000 !important;
+    border: #000 !important;
+    border-radius: 0 !important;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.links {
+    font-family: 'Bad Script', cursive;
+    color: white !important;
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+    padding-right: 2rem;
+}
+
+/*.navbar-nav > li{*/
+    /*margin-left: 3%;*/
+    /*margin-right: 3%;*/
+    /*!*width: 23%;*!*/
+    /*!*text-align: center;*!*/
+/*}*/
+
+.navbar-collapse a.links {
+    min-width: 110px;
+    text-align: left;
+}
+
+
+
+/*============================About Page===============================*/
+.aboutContainer {
+    margin: 0 auto;
+    padding-right: 0 !important;
+
+}
+.aboutBackground {
+    max-height: 850px;
+}
+
+.about {
+    padding-top: 20rem;
+}
+
+.aboutText {
+    font-family: 'Special Elite', cursive;
+    font-size: 8rem;
+    color: white;
+    text-align: center;
+    margin-left: 6rem;
+    text-shadow: 1px 1px #000000;
+}
+
+.aboutText2 {
+    font-size: 2rem;
+}
+
+/*============================skillz body================================*/
+.skillz {
+    padding-right:0 !important;
+    padding-top: 10rem;
+    padding-left: 10%;
+
+}
+
+.thumbnail {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.thumbnail:hover {
+    opacity: .7;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+/*========================Project Page===================================*/
+.projectContainer {
+    padding-top: 5%;
+    padding-right:0 !important;
+    text-align: center;
+}
+.projectPic1 {
+    height: 320px;
+    width: 440px;
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectPic2 {
+    height: 220px;
+    width: 220px;
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectPic1:hover {
+    opacity: .7;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.projectPic2:hover {
+    opacity: .7;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.projectBody {
+    color: antiquewhite;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px #000000;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.projectBody a {
+    color: antiquewhite;
+}
+
+.projectBody ul {
+    padding-left:0;
+}
+
+.projectBody li {
+    list-style-type: none;
+}
+/*============================Experience Page===============================*/
+
+.experienceHeader {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    color: antiquewhite;
+    font-size: 3rem;
+    font-family: 'Special Elite', cursive;
+    /*font-weight: bold;*/
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+
+.experienceBody {
+    color: antiquewhite;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 1px 1px #000000;
+    margin-left: 5%;
+    padding-bottom: 3%;
+}
+
+.experienceBody a {
+    color: antiquewhite;
+}
+
+
+/* ===================FOOTER==================== */
+
+.site-footer {
+    background: #646464;
+    height: 150px;
+    /*background: linear-gradient(120deg, #357570, #3c8680, #449790, #4ca8a1) !important;*/
+}
+
+.footer-middle {
+    /*padding-top: 2rem;*/
+    text-align: center;
+}
+.footer-header {
+    font-family: 'Bad Script', cursive;
+    font-size: 3rem;
+     color: #d64043;
+     text-shadow: 1px 1px #000;
+    padding-top: 2rem;
+ }
+
+.fa {
+    color: #5C356C;
+    padding: 1.5rem;
+}
+
+/*.copyrightDisclaimerDiv {*/
+    /*padding-top: 2%;*/
+/*}*/
+
+/*.copyright {*/
+    /*text-align: left;*/
+    /*font-family: sans-serif;*/
+    /*color: #57102c;*/
+    /*!*margin-left: 2rem;*!*/
+/*}*/
+
+/*====================Media Queries==============================*/
+
+@media only screen and (max-width : 768px) {
+
+    .mainCollage{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .aboutBackground {
+        max-width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .aboutText {
+        /*padding-top: 0;*/
+        margin: 0 auto;
+        font-size: 3rem;
+    }
+
+    .aboutText span {
+        font-size: 3.5rem;
+    }
+
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+
+    .mainCollage{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10rem;
+        padding-top: 5rem;
+    }
+
+    .aboutBackground {
+        max-width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .aboutText {
+        padding-top: 1rem;
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+
+
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+
+    .copyright {
+        text-align: center;
+        margin-left: 0;
+    }
+}

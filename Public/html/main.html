@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app='jesseyApp'>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--the next 3 meta tags are SEO stuff, write what will help with search engine hits-->
+    <meta name="keywords" content="jessey eagan web developer"/>
+    <meta name="description" content="Jessey Eagan, full stack developer"/>
+    <meta name="author" content="Jessey Eagan"/>
+
+    <!--this link tag is the default image for when someone shares your website on social media-->
+    <link rel="image_src" href=""/>
+
+    <title>Jessey Eagan</title>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.11.0/bootstrap-social.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <!--<link rel="image_src" href="../media/" />-->
+</head>
+<body ng-controller='mainController'>
+<div class="page-wrap">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse nav-collapse" id=".navbar-collapse">
+                <ul class="nav navbar-nav navbar-right links">
+                    <li><a class="links" ui-sref="home">Bio</a></li>
+                    <!--<li><a class="links" ui-sref="about">Bio</a></li>-->
+                    <li><a class="links" ui-sref="skillz">Skillz</a></li>
+                    <li><a class="links" ui-sref="projects">Projects</a></li>
+                    <li><a class="links" ui-sref="experience">Experience</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!--========================TESTING====================================-->
+
+    <!--======================NG VIEW===========================-->
+    <ui-view></ui-view>
+</div>
+<!-------------------FOOTER----------------------------------->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <header class="footer-middle footer-header">Connect with me</header>
+            <div class="col-xs-12 footer-middle">
+                <a href="https://www.linkedin.com/in/jessey-eagan-533523102"><i class="fa fa-linkedin-square fa-4x"></i></a>
+                <a href="https://github.com/JesseyEagan1/"><i class="fa fa-github-square fa-4x"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--<div class="container-fluid copyrightDisclaimerDiv">-->
+        <!--<div class="row">-->
+            <!--<div class="copyright col-xs-12 col-md-6">All Contents Copyright &copy; 2015, SE7EN FAST.</div>-->
+            <!--<div class="disclaimer-link col-xs-12 col-md-6"><a ui-sref="disclaimer" alt="The Legal Stuff" >The Legal Stuff</a></div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+</footer>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
