@@ -220,25 +220,11 @@ html, body {
     padding: 1.5rem;
 }
 
-/*.copyrightDisclaimerDiv {*/
-    /*padding-top: 2%;*/
-/*}*/
-
-/*.copyright {*/
-    /*text-align: left;*/
-    /*font-family: sans-serif;*/
-    /*color: #57102c;*/
-    /*!*margin-left: 2rem;*!*/
-/*}*/
 
 /*====================Media Queries==============================*/
 
 @media only screen and (max-width : 768px) {
 
-    .mainCollage{
-        padding-left: 20%;
-        padding-right: 20%;
-    }
 
     .aboutBackground {
         max-width: 100%;
@@ -265,13 +251,6 @@ html, body {
 
 @media only screen and (max-width : 480px) {
 
-    .mainCollage{
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-bottom: 10rem;
-        padding-top: 5rem;
-    }
-
     .aboutBackground {
         max-width: 100%;
         display: inline-block;
@@ -291,9 +270,4 @@ html, body {
         margin: auto;
     }
 
-
-    .copyright {
-        text-align: center;
-        margin-left: 0;
-    }
 }
