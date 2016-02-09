@@ -113,7 +113,7 @@ html, body {
     transition: .3s ease-in-out;
 }
 
-.experienceHeader {
+.skillzHeader {
     padding-top: 5rem;
     /*padding-bottom: 3%;*/
     color: white;
@@ -277,6 +277,7 @@ html, body {
         padding-right: 10% !important;
         overflow: hidden;
     }
+
     /*.aboutBackground {*/
     /*max-width: 100%;*/
     /*display: inline-block;*/
@@ -333,4 +334,17 @@ html, body {
         overflow: hidden;
     }
 
+    .projectPic1 {
+        max-height: 275px;
+        max-width: 380px;
+    }
+
+    .projectPic2 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .projectBody {
+        margin: 0 auto;
+    }
 }
