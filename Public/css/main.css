@@ -317,8 +317,8 @@ html, body {
     }
 
     .skillz {
-        /*padding-left: 5% !important;*/
-        padding-right: 15px !important;
+        padding-left: 15% !important;
+        padding-right: 15% !important;
         overflow: hidden;
     }
 
