@@ -358,4 +358,12 @@ html, body {
         padding-bottom: 4%;
     }
 
+    .experienceBody h3 {
+        font-size: 1.5rem;
+    }
+
+    .experienceBody h4 {
+        font-size: 1rem;
+    }
+
 }
