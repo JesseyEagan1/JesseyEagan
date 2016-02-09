@@ -256,10 +256,14 @@ html, body {
         font-size: 2rem;
     }
 
-    .skillz {
-        padding-left: 20%;
-        padding-right: 20%;
+    .thumbnail {
+        max-width: 150px;
+        max-height: 150px;
     }
+    /*.skillz {*/
+        /*padding-left: 20%;*/
+        /*padding-right: 20%;*/
+    /*}*/
     /*.aboutBackground {*/
     /*max-width: 100%;*/
     /*display: inline-block;*/
@@ -305,9 +309,13 @@ html, body {
         font-size: 2rem;
     }
 
-    .skillz {
-        padding-left: 20%;
-        padding-right: 20%;
+    .thumbnail {
+        max-width: 150px;
+        max-height: 150px;
     }
+    /*.skillz {*/
+        /*padding-left: 20%;*/
+        /*padding-right: 20%;*/
+    /*}*/
 
 }
