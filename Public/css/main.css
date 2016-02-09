@@ -95,7 +95,7 @@ html, body {
 /*============================skillz body================================*/
 .skillz {
     padding-right:0 !important;
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-left: 10%;
 
 }
@@ -111,6 +111,17 @@ html, body {
     filter: grayscale(100%);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
+}
+
+.experienceHeader {
+    padding-top: 5rem;
+    /*padding-bottom: 3%;*/
+    color: white;
+    font-size: 5rem;
+    font-family: 'Special Elite', cursive;
+    /*font-weight: bold;*/
+    text-align: center;
+    text-shadow: 1px 1px #000000;
 }
 /*========================Project Page===================================*/
 .projectContainer {
