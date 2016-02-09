@@ -255,6 +255,11 @@ html, body {
     .aboutText2 {
         font-size: 2rem;
     }
+
+    .skillz {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
     /*.aboutBackground {*/
     /*max-width: 100%;*/
     /*display: inline-block;*/
@@ -298,6 +303,11 @@ html, body {
 
     .aboutText2 {
         font-size: 2rem;
+    }
+
+    .skillz {
+        padding-left: 20%;
+        padding-right: 20%;
     }
 
 }
