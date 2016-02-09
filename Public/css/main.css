@@ -61,7 +61,7 @@ html, body {
 
 
 
-/*============================About Page===============================*/
+/*============================Bio Page===============================*/
 .aboutContainer {
     margin: 0 auto;
     padding-right: 0 !important;
@@ -225,23 +225,44 @@ html, body {
 
 @media only screen and (max-width : 768px) {
 
+    /*.aboutContainer {*/
+        /*margin: 0 auto;*/
+        /*padding-right: 0 !important;*/
 
+    /*}*/
     .aboutBackground {
-        max-width: 100%;
-        display: inline-block;
-        text-align: center;
-        margin-bottom: 0;
+        max-height: 400px;
+    }
+
+    .about {
+        padding-top: 5rem;
     }
 
     .aboutText {
-        /*padding-top: 0;*/
-        margin: 0 auto;
-        font-size: 3rem;
+        font-size: 6rem;
+        text-align: center;
+        margin-left: 6rem;
     }
 
-    .aboutText span {
-        font-size: 3.5rem;
+    .aboutText2 {
+        font-size: 2rem;
     }
+    /*.aboutBackground {*/
+        /*max-width: 100%;*/
+        /*display: inline-block;*/
+        /*text-align: center;*/
+        /*margin-bottom: 0;*/
+    /*}*/
+
+    /*.aboutText {*/
+        /*!*padding-top: 0;*!*/
+        /*margin: 0 auto;*/
+        /*font-size: 3rem;*/
+    /*}*/
+
+    /*.aboutText span {*/
+        /*font-size: 3.5rem;*/
+    /*}*/
 
     .wrapper {
         width: 80%;
