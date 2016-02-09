@@ -116,11 +116,9 @@ html, body {
 
 .skillzHeader {
     padding-top: 5rem;
-    /*padding-bottom: 3%;*/
     color: white;
     font-size: 5rem;
     font-family: 'Special Elite', cursive;
-    /*font-weight: bold;*/
     text-align: center;
     text-shadow: 1px 1px #000000;
 }
@@ -274,8 +272,8 @@ html, body {
     }
 
     .skillz {
-        padding-left: 10% !important;
-        padding-right: 10% !important;
+        /*padding-left: 10% !important;*/
+        /*padding-right: 10% !important;*/
         overflow: hidden;
     }
 
@@ -321,7 +319,7 @@ html, body {
     }
 
     .aboutText2 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .thumbnail {
@@ -330,8 +328,8 @@ html, body {
     }
 
     .skillz {
-        padding-left: 15% !important;
-        padding-right: 15% !important;
+        /*padding-left: 15% !important;*/
+        /*padding-right: 15% !important;*/
         overflow: hidden;
     }
 
