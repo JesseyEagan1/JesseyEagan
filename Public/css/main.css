@@ -21,13 +21,13 @@ html, body {
 
 /*===========================NAVBAR==============================*/
 /*.nav.navbar-nav.links {*/
-    /*width: 99%;*/
+/*width: 99%;*/
 /*}*/
 
 /*.navigation {*/
-    /*list-style-type: none;*/
-    /*display: inline;*/
-    /*text-align: center;*/
+/*list-style-type: none;*/
+/*display: inline;*/
+/*text-align: center;*/
 
 /*}*/
 
@@ -48,10 +48,10 @@ html, body {
 }
 
 /*.navbar-nav > li{*/
-    /*margin-left: 3%;*/
-    /*margin-right: 3%;*/
-    /*!*width: 23%;*!*/
-    /*!*text-align: center;*!*/
+/*margin-left: 3%;*/
+/*margin-right: 3%;*/
+/*!*width: 23%;*!*/
+/*!*text-align: center;*!*/
 /*}*/
 
 .navbar-collapse a.links {
@@ -69,6 +69,10 @@ html, body {
 }
 .aboutBackground {
     max-height: 850px;
+}
+
+.pull-right-custom {
+    float: right;
 }
 
 .about {
@@ -210,10 +214,10 @@ html, body {
 .footer-header {
     font-family: 'Bad Script', cursive;
     font-size: 3rem;
-     color: #d64043;
-     text-shadow: 1px 1px #000;
+    color: #d64043;
+    text-shadow: 1px 1px #000;
     padding-top: 2rem;
- }
+}
 
 .fa {
     color: #5C356C;
@@ -232,7 +236,10 @@ html, body {
     .aboutBackground {
         max-height: 600px;
     }
-
+    .pull-right-custom {
+        float: none;
+        margin: auto;
+    }
     .about {
         padding-top: 5rem;
     }
@@ -247,37 +254,49 @@ html, body {
         font-size: 2rem;
     }
     /*.aboutBackground {*/
-        /*max-width: 100%;*/
-        /*display: inline-block;*/
-        /*text-align: center;*/
-        /*margin-bottom: 0;*/
+    /*max-width: 100%;*/
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    /*margin-bottom: 0;*/
     /*}*/
 
     /*.aboutText {*/
-        /*!*padding-top: 0;*!*/
-        /*margin: 0 auto;*/
-        /*font-size: 3rem;*/
+    /*!*padding-top: 0;*!*/
+    /*margin: 0 auto;*/
+    /*font-size: 3rem;*/
     /*}*/
 
     /*.aboutText span {*/
-        /*font-size: 3.5rem;*/
+    /*font-size: 3.5rem;*/
     /*}*/
 
 }
 
 @media only screen and (max-width : 480px) {
 
+    .aboutContainer {
+        overflow: hidden;
+
+    }
     .aboutBackground {
-        max-width: 100%;
-        display: inline-block;
-        text-align: center;
-        margin-bottom: 0;
+        max-height: 600px;
+    }
+    .pull-right-custom {
+        float: none;
+        margin: auto;
+    }
+    .about {
+        padding-top: 5rem;
     }
 
     .aboutText {
-        padding-top: 1rem;
-        margin: 0 auto;
-        font-size: 1.5rem;
+        font-size: 4rem;
+        text-align: center;
+        margin-left: 0 auto;
+    }
+
+    .aboutText2 {
+        font-size: 2rem;
     }
 
 }
