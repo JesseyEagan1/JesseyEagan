@@ -231,7 +231,7 @@ html, body {
 
     /*}*/
     .aboutBackground {
-        max-height: 400px;
+        max-height: 600px;
     }
 
     .about {
@@ -241,7 +241,7 @@ html, body {
     .aboutText {
         font-size: 6rem;
         text-align: center;
-        margin-left: 6rem;
+        margin-left: 0 auto;
     }
 
     .aboutText2 {
