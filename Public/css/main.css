@@ -260,10 +260,11 @@ html, body {
         max-width: 150px;
         max-height: 150px;
     }
-    /*.skillz {*/
-        /*padding-left: 20%;*/
-        /*padding-right: 20%;*/
-    /*}*/
+
+    .skillz {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     /*.aboutBackground {*/
     /*max-width: 100%;*/
     /*display: inline-block;*/
@@ -313,9 +314,10 @@ html, body {
         max-width: 150px;
         max-height: 150px;
     }
-    /*.skillz {*/
-        /*padding-left: 20%;*/
-        /*padding-right: 20%;*/
-    /*}*/
+
+    .skillz {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
 }
