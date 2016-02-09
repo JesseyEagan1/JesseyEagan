@@ -262,8 +262,9 @@ html, body {
     }
 
     .skillz {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: hidden;
     }
     /*.aboutBackground {*/
     /*max-width: 100%;*/
@@ -316,8 +317,9 @@ html, body {
     }
 
     .skillz {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: hidden;
     }
 
 }
